@@ -71,7 +71,7 @@ setx PGSERVICEFILE "%userprofile%\pg_service.conf"
 - Load all the tables from `foss4g` schema
 - In PostGIS, the tables are related:
 
-<img src="./img/erd_foss4g.png" alt="ERD for FOSS4G schema" width="900">
+<img src="./img/erd_foss4g.png" alt="ERD for FOSS4G schema" width="800">
 
 - In QGIS, Project Properties -> Discover Relations
 - Look at feature form
@@ -101,7 +101,7 @@ grant foss4g_editor to username; -- run this line for each user
 - Load `poi_category`
 - Project Properties -> Discover Relations
 
-<img src="./img/erd_poi.png" alt="ERD for FOSS4G schema" width="900">
+<img src="./img/erd_poi.png" alt="ERD for FOSS4G schema" width="800">
 
 - Try again - now there is a dropdown with meaningful info from the relation.
 
@@ -228,7 +228,7 @@ CROSS JOIN LATERAL (
 
 More detailed solution combines also routes connected to each stop, leveraging many-to-many relation between transport stops and routes.
 
-<img src="./img/erd_transport.png" alt="ERD for transport schema" width="300">
+<img src="./img/erd_transport.png" alt="ERD for transport schema" width="800">
 
 ``` sql
 WITH nearest_stop AS (
