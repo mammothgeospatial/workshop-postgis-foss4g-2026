@@ -102,7 +102,12 @@ grant foss4g_editor to username; -- run this line for each user
 - Load `poi`, make it editable, add a point. Notice that `category_id` is an integer input. Cancel edit.
 - Load `poi_category`
 - Project Properties -> Discover Relations
+
+<img src="./img/erd_poi.png" alt="ERD for FOSS4G schema" width="900">
+
 - Try again - now there is a dropdown with meaningful info from the relation.
+
+
 
 ## Load to PostGIS, Create Query Layers, Create Views
 
@@ -222,6 +227,8 @@ CROSS JOIN LATERAL (
 ```
 
 More detailed solution combines also routes connected to each stop, leveraging many-to-many relation between transport stops and routes.
+
+<img src="./img/erd_transport.png" alt="ERD for transport schema" width="300">
 
 ``` sql
 WITH nearest_stop AS (
