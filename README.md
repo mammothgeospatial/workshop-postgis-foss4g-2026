@@ -76,8 +76,6 @@ setx PGSERVICEFILE "%userprofile%\pg_service.conf"
 - In QGIS, Project Properties -> Discover Relations
 - Look at feature form
 
-
-
 ### Users/roles/privileges
 - Concept: permissions on schemas & tables
 - Load `poi` layer to QGIS, note that it's not editable
@@ -128,6 +126,8 @@ Now we have a place with appropriate permissions, we can import data into PostGI
 **IMPORTANT**: with several people doing this at the same time, we may quickly tie up the database server's resources. We'll use relatively small datasets to keep it quick & (hopefully) painless.
 
 We'll load some OpenStreetMap data extracted from easy-access downloads provided by [Geofabrik](https://www.geofabrik.de/data/download.html).
+
+Download the data [here](https://github.com/mammothgeospatial/workshop-postgis-foss4g-2026/raw/refs/heads/main/data/osm_data_geofabrik.gpkg).
 
 Two ways:
 - In the QGIS Browser panel, right-click -> `Import Vector Layer` or simply drag & drop.
