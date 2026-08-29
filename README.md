@@ -1,6 +1,6 @@
 # Discovering PostGIS: An Introduction for QGIS Users
 
-**Presented at FOSS4G 2026 Hiroshima by [John Bryant](https://www.linkedin.com/in/john-wesley-bryant/) and [Federica Gaspari](https://www.linkedin.com/in/federicagaspari/)**
+**Presented at FOSS4G Hiroshima 2026 by [John Bryant](https://www.linkedin.com/in/john-wesley-bryant/) and [Federica Gaspari](https://www.linkedin.com/in/federicagaspari/)**
 
 <img src="./img/foss4g-2026-logo.png" alt="Workshop Logo" width="300">
 
