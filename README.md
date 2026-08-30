@@ -49,6 +49,7 @@ password=<your password>
 ``` ps1
 setx PGSERVICEFILE "%userprofile%\pg_service.conf"
 ```
+- On Windows, restart QGIS before continuing
 - In QGIS, add a new connection w/ reference to service name
 - Pros: easy to manage changes to credentials, better interoperability across users/environments/applications
 - Cleanup: remove all but one of these connections
